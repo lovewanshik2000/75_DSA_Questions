@@ -26,3 +26,7 @@ n = len(l2)
 for i in range(0, n):
     hash_map[l2[i]] = hash_map.get(l2[i],0)+1
 print("Method 2 output:", hash_map)
+
+
+# TIME COMPLEXCITY : O(N)
+# SPACE COMPLEXCITY : O(N)
