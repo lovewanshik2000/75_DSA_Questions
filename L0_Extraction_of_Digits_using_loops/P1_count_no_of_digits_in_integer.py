@@ -15,7 +15,6 @@
 
 # ################## Using Math library function:- log10() ##################
 from math import *
-
 def countDigits(n):
     return int(log10(n)+1)
 
