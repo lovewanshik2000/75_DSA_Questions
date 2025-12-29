@@ -37,4 +37,4 @@ def findFactor(n):
     res.sort()
     return res
     
-print("Squar root of given number: ", findFactor(36))
+print("Squar root of given number: ", findFactor(120))
