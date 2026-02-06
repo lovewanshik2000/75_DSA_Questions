@@ -1,0 +1,2 @@
+1. Introduce yourself and explain your projects
+2. Django Request and Response Lifecycle.
