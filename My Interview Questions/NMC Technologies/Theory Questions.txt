@@ -1,0 +1,7 @@
+1. Introduce yourself.
+2. What is your highest qualification.
+3. explain about your previous companies and projects
+4. How many have you done?
+5. What is Indexing in SQL?
+5. How to optimize query?
+6. Are you work on ML production projects?
