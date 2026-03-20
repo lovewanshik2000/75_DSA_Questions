@@ -1,0 +1,5 @@
+1. Introduce yourself
+2. list vs tuple
+3. what is decorator & it's usecases.
+4. shallow copy vs deep copy
+5. 

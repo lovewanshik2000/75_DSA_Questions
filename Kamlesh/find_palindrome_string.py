@@ -1,5 +1,5 @@
 """
-✅ 2. Check Palindrome String
+2️⃣ Check Palindrome (Without Slicing)
 
 Problem Statement:
 Given a string s, return True if it is a palindrome, otherwise return False.
@@ -20,17 +20,18 @@ Output: False
 #     return False
 
 def find_palindrome_string(s):
-    left_pointer = 0
-    right_pointer = len(s) - 1
-    while left_pointer < right_pointer:
-        if s[left_pointer] != s[right_pointer]:
+    left = 0
+    right = len(s) - 1
+    while left < right:
+        if s[left] != s[right]:
             return False
-        left_pointer += 1
-        right_pointer -= 1
+        left += 1
+        right -= 1
     return True
 
 
+inp = "abcba"
+print(f"{inp} is Palindrome :{find_palindrome_string(inp)}")
 
-print(find_palindrome_string("abcba"))
-
-print(find_palindrome_string("hello"))
+inp2 = "hello"
+print(f"{inp2} is Palindrome :{find_palindrome_string(inp2)}")
