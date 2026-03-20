@@ -34,3 +34,10 @@ def find_smallest_element(arr):
 # ar = [2, 5, 1, 3, 0]
 ar = 8, 10, 5, 7, 9
 print(find_smallest_element(ar))
+
+
+"""
+Complexity Analysis:
+    1. Time Complexity: O(N), where N is the size of the array, as we are iterating through the array once.
+    2. Space Complexity: O(1), as we are using a constant
+"""
